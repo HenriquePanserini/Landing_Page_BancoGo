@@ -1,0 +1,123 @@
+body{
+    background-color: rgb(140, 82, 255);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+h1{
+    font-weight: 200;
+}
+
+div h1 strong{
+    font-size: 50px;
+    color: orange;
+}
+
+div h1 c{
+    font-size: 40px;
+    color: orange;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+}
+
+main c2{
+    font-size: 66px;
+    color: orange;
+}
+
+label l1{
+    flex-direction: column-reverse;
+    font-size: 40px;
+    color: orange;
+
+}
+
+img{
+
+    width: 500px;
+    margin-left: 200px;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 15px;
+    font-family: poppinsmedium;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+a{
+    color: white
+}
+
+a:hover{
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+
+#cadastro{
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#cadastro:hover{
+    background-color: orange;
+    color: rgb(132, 14, 201)
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: orange;
+    color: rgb(132, 14, 201);
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
